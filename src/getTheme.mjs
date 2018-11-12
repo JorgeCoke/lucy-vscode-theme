@@ -71,204 +71,7 @@ export default colors => ({
     'editorGroup.border': colors.background2,
     'editorGroup.dropBackground': colors.translucent,
     'editorGroupHeader.noTabsBackground': colors.background3,
-    'editorGroupHeader.tabsBackground': colors.background3,
-    'editorGroupHeader.tabsBorder': colors.background3,
-    'tab.activeBackground': colors.background3,
-    'tab.activeForeground': colors.base2,
-    'tab.border': colors.background3,
-    'tab.activeBorder': colors.base2,
-    'tab.unfocusedActiveBorder': colors.dim3,
-    'tab.inactiveBackground': colors.background3,
-    'tab.inactiveForeground': colors.dim3,
-    'tab.unfocusedActiveForeground': colors.dim4,
-    'tab.unfocusedInactiveForeground': colors.dim3,
-    'tab.hoverBackground': colors.background3,
-    'tab.unfocusedHoverBackground': colors.background3,
-    'tab.hoverBorder': colors.dim1,
-    'tab.unfocusedHoverBorder': colors.background3,
-    'editor.background': colors.background3,
-    'editor.foreground': colors.pure2,
-    'editorLineNumber.foreground': colors.dim1,
-    'editorLineNumber.activeForeground': colors.dim4,
-    'editorCursor.background': colors.translucent8,
-    'editorCursor.foreground': colors.pure2,
-    'editor.selectionBackground': colors.background4,
-    'editor.inactiveSelectionBackground': colors.translucent3,
-    'editor.selectionHighlightBackground': colors.translucent2,
-    'editor.selectionHighlightBorder': colors.translucent8,
-    'editor.wordHighlightBackground': colors.translucent2,
-    'editor.wordHighlightBorder': colors.translucent8,
-    'editor.wordHighlightStrongBackground': colors.translucent2,
-    'editor.wordHighlightStrongBorder': colors.translucent8,
-    'editor.findMatchBackground': colors.translucent2,
-    'editor.findMatchBorder': colors.base2,
-    'editor.findMatchHighlightBackground': colors.translucent2,
-    'editor.findMatchHighlightBorder': colors.translucent8,
-    'editor.findRangeHighlightBackground': colors.translucent3,
-    'editor.findRangeHighlightBorder': colors.translucent8,
-    'editor.hoverHighlightBackground': colors.translucent3,
-    'editor.lineHighlightBackground': colors.translucent3,
-    'editor.lineHighlightBorder': colors.translucent8,
-    'editorLink.activeForeground': colors.accent1,
-    'editor.rangeHighlightBackground': colors.background4,
-    'editor.rangeHighlightBorder': colors.background4,
-    'editorWhitespace.foreground': colors.dim1,
-    'editorIndentGuide.background': colors.background4,
-    'editorRuler.foreground': colors.dim1,
-    'editorCodeLens.foreground': colors.dim2,
-    'editorBracketMatch.background': colors.background3,
-    'editorBracketMatch.border': colors.dim2,
-    'editorError.foreground': colors.base1,
-    'editorError.border': colors.translucent8,
-    'editorWarning.foreground': colors.accent2,
-    'editorWarning.border': colors.translucent8,
-    'editorInfo.foreground': colors.accent1,
-    'editorInfo.border': colors.background3,
-    'editorHint.foreground': colors.const,
-    'editorHint.border': colors.background3,
-    'editorGutter.background': colors.background3,
-    'editorGutter.modifiedBackground': colors.accent2,
-    'editorGutter.addedBackground': colors.call,
-    'editorGutter.deletedBackground': colors.base1,
-    'diffEditor.insertedTextBackground': colors.translucent4,
-    'diffEditor.insertedTextBorder': colors.translucent8,
-    'diffEditor.removedTextBackground': colors.translucent6,
-    'diffEditor.removedTextBorder': colors.translucent8,
-    'editorWidget.background': colors.background4,
-    'editorWidget.border': colors.background4,
-    'editorSuggestWidget.background': colors.background4,
-    'editorSuggestWidget.border': colors.background4,
-    'editorSuggestWidget.foreground': colors.dim4,
-    'editorSuggestWidget.highlightForeground': colors.pure2,
-    'editorSuggestWidget.selectedBackground': colors.dim2,
-    'editorHoverWidget.background': colors.background4,
-    'editorHoverWidget.border': colors.background3,
-    'debugExceptionWidget.background': colors.background4,
-    'debugExceptionWidget.border': colors.background3,
-    'editorMarkerNavigation.background': colors.background4,
-    'editorMarkerNavigationError.background': colors.base1,
-    'editorMarkerNavigationWarning.background': colors.accent2,
-    'editorMarkerNavigationInfo.background': colors.accent1,
-    'peekView.border': colors.background3,
-    'peekViewEditor.background': colors.background4,
-    'peekViewEditorGutter.background': colors.background4,
-    'peekViewEditor.matchHighlightBackground': colors.dim1,
-    'peekViewResult.background': colors.background4,
-    'peekViewResult.fileForeground': colors.dim3,
-    'peekViewResult.lineForeground': colors.dim3,
-    'peekViewResult.matchHighlightBackground': colors.dim1,
-    'peekViewResult.selectionBackground': colors.background4,
-    'peekViewResult.selectionForeground': colors.pure2,
-    'peekViewTitle.background': colors.background4,
-    'peekViewTitleDescription.foreground': colors.dim3,
-    'peekViewTitleLabel.foreground': colors.pure2,
-    'merge.currentHeaderBackground': colors.translucent7,
-    'merge.currentContentBackground': colors.translucent6,
-    'merge.incomingHeaderBackground': colors.translucent5,
-    'merge.incomingContentBackground': colors.translucent4,
-    'merge.border': colors.background3,
-    'merge.commonHeaderBackground': colors.translucent2,
-    'merge.commonContentBackground': colors.translucent3,
-    'editorOverviewRuler.border': colors.background3,
-    'editorOverviewRuler.currentContentForeground': colors.background4,
-    'editorOverviewRuler.incomingContentForeground': colors.background4,
-    'editorOverviewRuler.findMatchForeground': colors.translucent2,
-    'editorOverviewRuler.rangeHighlightForeground': colors.translucent2,
-    'editorOverviewRuler.selectionHighlightForeground': colors.translucent2,
-    'editorOverviewRuler.wordHighlightForeground': colors.translucent2,
-    'editorOverviewRuler.wordHighlightStrongForeground': colors.translucent2,
-    'editorOverviewRuler.modifiedForeground': colors.accent2,
-    'editorOverviewRuler.addedForeground': colors.call,
-    'editorOverviewRuler.deletedForeground': colors.base1,
-    'editorOverviewRuler.errorForeground': colors.base1,
-    'editorOverviewRuler.warningForeground': colors.accent2,
-    'editorOverviewRuler.infoForeground': colors.accent1,
-    'panel.background': colors.background4,
-    'panel.border': colors.background3,
-    'panel.dropBackground': colors.translucent,
-    'panelTitle.activeBorder': colors.base2,
-    'panelTitle.activeForeground': colors.base2,
-    'panelTitle.inactiveForeground': colors.dim3,
-    'statusBar.background': colors.background2,
-    'statusBar.foreground': colors.dim2,
-    'statusBar.border': colors.background1,
-    'statusBar.debuggingBackground': colors.dim2,
-    'statusBar.debuggingForeground': colors.pure2,
-    'statusBar.debuggingBorder': colors.background2,
-    'statusBar.noFolderBackground': colors.background2,
-    'statusBar.noFolderForeground': colors.dim2,
-    'statusBar.noFolderBorder': colors.background1,
-    'statusBarItem.activeBackground': colors.background3,
-    'statusBarItem.hoverBackground': colors.background3,
-    'statusBarItem.prominentBackground': colors.background4,
-    'statusBarItem.prominentHoverBackground': colors.background4,
-    'titleBar.activeBackground': colors.background2,
-    'titleBar.activeForeground': colors.dim3,
-    'titleBar.inactiveBackground': colors.background2,
-    'titleBar.inactiveForeground': colors.dim1,
-    'titleBar.border': colors.background1,
-    'notificationCenter.border': colors.background4,
-    'notificationCenterHeader.foreground': colors.dim3,
-    'notificationCenterHeader.background': colors.background4,
-    'notificationToast.border': colors.background4,
-    'notifications.foreground': colors.dim4,
-    'notifications.background': colors.background4,
-    'notifications.border': colors.background4,
-    'notificationLink.foreground': colors.base2,
-    'extensionButton.prominentForeground': colors.pure2,
-    'extensionButton.prominentBackground': colors.background4,
-    'extensionButton.prominentHoverBackground': colors.dim1,
-    'pickerGroup.border': colors.background3,
-    'pickerGroup.foreground': colors.dim1,
-    'terminal.background': colors.background4,
-    'terminal.foreground': colors.pure2,
-    'terminal.ansiBlack': colors.background4,
-    'terminal.ansiBlue': colors.accent2,
-    'terminal.ansiBrightBlack': colors.dim2,
-    'terminal.ansiBrightBlue': colors.accent2,
-    'terminal.ansiBrightCyan': colors.accent1,
-    'terminal.ansiBrightGreen': colors.call,
-    'terminal.ansiBrightMagenta': colors.const,
-    'terminal.ansiBrightRed': colors.base1,
-    'terminal.ansiBrightWhite': colors.pure2,
-    'terminal.ansiBrightYellow': colors.base2,
-    'terminal.ansiCyan': colors.accent1,
-    'terminal.ansiGreen': colors.call,
-    'terminal.ansiMagenta': colors.const,
-    'terminal.ansiRed': colors.base1,
-    'terminal.ansiWhite': colors.pure2,
-    'terminal.ansiYellow': colors.base2,
-    'terminal.selectionBackground': colors.translucent2,
-    'terminalCursor.background': colors.translucent8,
-    'terminalCursor.foreground': colors.pure2,
-    'debugToolBar.background': colors.background4,
-    'welcomePage.buttonBackground': colors.background4,
-    'welcomePage.buttonHoverBackground': colors.dim1,
-    'walkThrough.embeddedEditorBackground': colors.background2,
-    'gitDecoration.modifiedResourceForeground': colors.call,
-    'gitDecoration.deletedResourceForeground': colors.base1,
-    'gitDecoration.untrackedResourceForeground': colors.accent2,
-    'gitDecoration.ignoredResourceForeground': colors.dim1,
-    'gitDecoration.conflictingResourceForeground': colors.accent2
-  },
-  tokenColors: [
-    {
-      scope: [
-        'comment',
-        'comment keyword',
-        'comment markup.underline.link',
-        'comment string',
-        'comment punctuation.definition',
-        'comment punctuation',
-        'comment text'
-      ],
-      settings: {
-        fontStyle: 'italic',
-        foreground: colors.dim2
-      }
-    },
-    {
-      scope: '\n\t\tcomment storage.type\n\t',
+ge.type\n\t',
       settings: {
         foreground: colors.dim2
       }
@@ -339,6 +142,72 @@ export default colors => ({
         foreground: colors.const
       }
     },
+
+scope: '\n\t\tcomment entity.name.type\n\t',
+  settings: {
+  foreground: colors.dim4
+}
+    },
+{
+  scope: ['comment variable', 'comment variable.other'],
+    settings: {
+    foreground: colors.dim4
+  }
+},
+{
+  scope: '\n\t\tcomment keyword.codetag.notation\n\t',
+    settings: {
+    foreground: colors.const
+  }
+},
+{
+  scope: '\n\t\tcomment.git-status.header.remote\n\t',
+    settings: {
+    foreground: colors.base1
+  }
+},
+{
+  scope: '\n\t\tcomment.git-status.header.local\n\t',
+    settings: {
+    foreground: colors.accent1
+  }
+},
+{
+  scope: '\n\t\tcomment.other.git-status.head\n\t',
+    settings: {
+    foreground: colors.pure2
+  }
+},
+{
+  scope: 'constant',
+    settings: {
+    foreground: colors.const
+  }
+},
+{
+  scope: 'constant.other',
+    settings: {
+    foreground: colors.pure2
+  }
+},
+{
+  scope: 'constant.other.property',
+    settings: {
+    foreground: colors.const
+  }
+},
+{
+  scope: 'constant.other.color',
+    settings: {
+    foreground: colors.const
+  }
+},
+{
+  scope: 'constant.other.character-class.escape',
+    settings: {
+    foreground: colors.const
+  }
+},
     {
       scope: 'constant.other.key',
       settings: {
